@@ -21,6 +21,11 @@ namespace RandomProg
         {
             Form form = new Form1();
             form.FormClosing += form_Closing;
+
+
+            Application.Run(form);
+
+
         }
 
             private static void form_Closing(object sender, EventArgs e)

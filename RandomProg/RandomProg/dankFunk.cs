@@ -8,7 +8,7 @@ namespace RandomProg
 {
     class dankFunk
     {
-        dankFunk()
+        public dankFunk()
         {
             Console.WriteLine("Git rekt bra");
         }

@@ -16,28 +16,31 @@ namespace RandomProg.utilities
         gibRandPlox()
         {
             rnd = new Random();
+
+            //Prepare all stuff
+            #region lotsAstuff
+
+            adjectives = new string[]{ "American",
+                                        "French",
+                                        "Japanese"};
+
+            #endregion
+
+
         }
 
         int gibRand(int max)
         {
-            //azdasda khasjgfhkjgfds
-
+            //Just return a random number.
             return rnd.Next(1,max);
-            //azdasdasd
-            //azdasdasd
-            //azdasdasd
-            //azdasdasd
-            //azdasdasd
-            //azdasdasd
-            //azdasdasd
-            //azdasdasd
-            //azdasdasd
-            //azdasda khasjgfhkjgfds HENKES VIKTIGA SKIT
         }
 
         string gibText()
         {
-            //azdasdasd
+            /*
+             * This function constructs a sentence from the adjectives and stuff.
+             */
+
         }
 
     }

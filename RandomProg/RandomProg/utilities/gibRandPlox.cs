@@ -21,6 +21,15 @@ namespace RandomProg.utilities
         {
             //azdasdasd
             return rnd.Next(1,max);
+            //azdasdasd
+            //azdasdasd
+            //azdasdasd
+            //azdasdasd
+            //azdasdasd
+            //azdasdasd
+            //azdasdasd
+            //azdasdasd
+            //azdasdasd
         }
 
         string gibText()

@@ -47,7 +47,7 @@ namespace RandomProg.utilities
             "alpacas",
             "wallace and gromit",
             "orcs",
-            "wizard of great power",
+            "wizards of great power",
             "faggots"};
 
             adverbs = new string[] { "swaggingly",
@@ -70,6 +70,14 @@ namespace RandomProg.utilities
             /*
              * This function constructs a sentence from the adjectives and stuff.
              */
+            
+            //Generate four random numbers, general sentence form
+            /*
+             * *Subjective* are *adverb* *verb* *adjective* *subjective*
+             */
+
+            
+
 
         }
 

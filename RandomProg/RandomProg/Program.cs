@@ -10,6 +10,7 @@ namespace RandomProg
     {
         static void Main(string[] args)
         {
+
         }
     }
 }

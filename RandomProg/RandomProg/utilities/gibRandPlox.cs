@@ -21,8 +21,38 @@ namespace RandomProg.utilities
             #region lotsAstuff
 
             adjectives = new string[]{ "American",
-                                        "French",
-                                        "Japanese"};
+            "French",
+            "Japanese",
+            "Blue",
+            "Red",
+            "Swaggalicious",
+            "angry",
+            "bewildered",
+            "clumsy",
+            "defeated",
+            "embarrassed",
+            "massive"};
+
+            verbs = new string[] { "crushing",
+            "forgiving",
+            "rekking",
+            "outperforming",
+            "wanking",
+            "exterminating",
+            "walking"};
+
+            subjectives = new string[] { "you",
+            "me",
+            "showers",
+            "alpacas",
+            "wallace and gromit",
+            "orcs",
+            "wizard of great power",
+            "faggots"};
+
+            adverbs = new string[] { "swaggingly",
+            "unappealingly",
+            "as well as bob ross"};
 
             #endregion
 

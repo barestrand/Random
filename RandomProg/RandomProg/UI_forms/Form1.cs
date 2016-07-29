@@ -19,7 +19,7 @@ namespace RandomProg.UI_forms
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // LOL
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -28,6 +28,11 @@ namespace RandomProg.UI_forms
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }

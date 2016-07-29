@@ -11,6 +11,7 @@ namespace RandomProg.utilities
     {
 
         Random rnd;
+        string[] adjectives, verbs, subjectives, adverbs;
 
         gibRandPlox()
         {

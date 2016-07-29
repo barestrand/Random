@@ -12,13 +12,15 @@ namespace RandomProg
         {
             Console.WriteLine("test5");
             Console.ReadLine();
-            Console.WriteLine("xxx");
+            Console.WriteLine("xxxXXXXXXXXXXXXXXXXXDEEERP");
             Console.ReadKey();
 
             dankFunk dff = new dankFunk();
             dff.repeat();
 
             Console.ReadKey();
+
+
         }
     }
 }

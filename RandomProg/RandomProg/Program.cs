@@ -14,6 +14,11 @@ namespace RandomProg
             Console.ReadLine();
             Console.WriteLine("xxx");
             Console.ReadKey();
+
+            dankFunk dff = new dankFunk();
+            dff.repeat();
+
+            Console.ReadKey();
         }
     }
 }

@@ -19,7 +19,7 @@ namespace RandomProg.UI_forms
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            // LOL
         }
     }
 }

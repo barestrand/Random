@@ -15,7 +15,7 @@ namespace RandomProg.utilities
 
         int gibRand()
         {
-
+            //azdasdasd
         }
     }
 }

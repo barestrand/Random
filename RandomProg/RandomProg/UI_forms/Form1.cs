@@ -15,6 +15,12 @@ namespace RandomProg.UI_forms
         public Form1()
         {
             InitializeComponent();
+
+            TopMost = true;
+            ShowInTaskbar = true;
+            Location = new Point(-450, 60); // app start position
+            FormBorderStyle = FormBorderStyle.None; // This form should not have a border or else Windows will clip it.
+
         }
 
         private void Form1_Load(object sender, EventArgs e)

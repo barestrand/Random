@@ -25,10 +25,7 @@ namespace RandomProg.utilities
 
         string gibText()
         {
-            //asdasdasda
-            //asdasdasdasd
-            //<asdasdasd
-            //asdasdasd
+            //azdasdasd
         }
 
     }

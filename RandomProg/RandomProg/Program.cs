@@ -12,6 +12,8 @@ namespace RandomProg
         {
             Console.WriteLine("test5");
             Console.ReadLine();
+            Console.WriteLine("xxx");
+            Console.ReadKey();
         }
     }
 }

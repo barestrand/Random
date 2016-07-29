@@ -1,6 +1,7 @@
 ﻿using RandomProg.UI_forms;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,17 +20,13 @@ namespace RandomProg
         static void Main(string[] args)
         {
             Form form = new Form1();
-
-            Console.WriteLine("test5");
-            Console.WriteLine("xxxXXXXXXXXXXXXXXXXXDEEERP");
-            Console.ReadKey();
-
-            dankFunk dff = new dankFunk();
-            dff.repeat();
-
-            Console.ReadKey();
-
-
+            form.FormClosing += form_Closing;
         }
+
+            private static void form_Closing(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
+    
     }
 }

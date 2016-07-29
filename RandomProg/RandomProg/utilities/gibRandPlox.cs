@@ -92,7 +92,7 @@ namespace RandomProg.utilities
             v = rnd.Next(0, verbs.Length - 1);
             ad = rnd.Next(0, adjectives.Length - 1);
 
-            return subjectives[s1] + "are" + adverbs[av] + verbs[v] + adjectives[ad] + subjectives[s2];
+            return subjectives[s1] + " " + "are" + " " + adverbs[av] + " " + verbs[v] + " " + adjectives[ad] + " " + subjectives[s2];
 
         }
 
@@ -116,7 +116,7 @@ namespace RandomProg.utilities
             v = mt.Next(0, verbs.Length - 1);
             ad = mt.Next(0, adjectives.Length - 1);
 
-            return subjectives[s1] + "are" + adverbs[av] + verbs[v] + adjectives[ad] + subjectives[s2];
+            return subjectives[s1] + " " + "are" + " " + adverbs[av] + " " + verbs[v] + " " + adjectives[ad] + " " + subjectives[s2];
 
         }
 

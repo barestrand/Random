@@ -15,7 +15,7 @@ namespace RandomProg
 
         public void repeat()
         {
-            Console.WriteLine("Git rekt braaaaaaaaa");
+            Console.WriteLine("Git rekt braaaaaaasdasdaaaaAAAAAAaaa");
         }
     }
 }

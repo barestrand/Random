@@ -19,8 +19,10 @@ namespace RandomProg.utilities
 
         int gibRand(int max)
         {
-            //azdasdasd
+            //azdasda khasjgfhkjgfds
+
             return rnd.Next(1,max);
+            //azdasda khasjgfhkjgfds HENKES VIKTIGA SKIT
         }
 
         string gibText()

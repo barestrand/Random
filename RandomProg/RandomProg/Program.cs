@@ -10,7 +10,7 @@ namespace RandomProg
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("test");
+            Console.WriteLine("test5");
             Console.ReadLine();
         }
     }

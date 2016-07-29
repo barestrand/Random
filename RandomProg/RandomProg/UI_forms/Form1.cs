@@ -19,7 +19,7 @@ namespace RandomProg.UI_forms
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            textBox1.Text = "Try me motherfucker!";
         }
 
         private void button1_Click(object sender, EventArgs e)

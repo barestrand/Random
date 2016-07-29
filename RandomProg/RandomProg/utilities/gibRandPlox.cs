@@ -14,7 +14,7 @@ namespace RandomProg.utilities
         MersenneTwister mt;
         string[] adjectives, verbs, subjectives, adverbs;
 
-        gibRandPlox()
+        public gibRandPlox()
         {
             rnd = new Random();
             mt = new MersenneTwister();
@@ -61,19 +61,19 @@ namespace RandomProg.utilities
 
         }
 
-        int gibRand(int max)
+        public int gibRand(int max)
         {
             //Just return a random number.
             return rnd.Next(0,max);
         }
 
-        int gibLeetRand(int max)
+        public int gibLeetRand(int max)
         {
             //Return a random number using the mersenne twister.
             return mt.Next(0, max);
         }
 
-        string gibText()
+        public string gibText()
         {
             /*
              * This function constructs a sentence from the adjectives and stuff.
@@ -97,7 +97,7 @@ namespace RandomProg.utilities
         }
 
 
-        string gibLeetText()
+        public string gibLeetText()
         {
             /*
              * This function constructs a sentence from the adjectives and stuff.
